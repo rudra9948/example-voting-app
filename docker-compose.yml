@@ -3,5 +3,7 @@ services:
     frontend:
         image: nginx
     backend:
-        image: alpine
+        image: nginx
+    database:
+        image: nginx
 
