@@ -5,5 +5,8 @@ services:
     backend:
         image: nginx
     database:
-        image: nginx
+        image: busybox
+    web:
+        image: hello-world
+
 
